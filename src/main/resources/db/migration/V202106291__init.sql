@@ -1,9 +1,10 @@
+DROP TABLE  if exists product_detail;
 CREATE TABLE product_detail
 (
     id       BIGSERIAL PRIMARY KEY,
     exp_date DATE
 );
-
+DROP TABLE if exists product;
 CREATE TABLE product
 (
     id                BIGSERIAL PRIMARY KEY,
@@ -13,5 +14,3 @@ CREATE TABLE product
     CONSTRAINT product_detail_fk FOREIGN KEY (product_detail_id) references product_detail
 );
 
--- ALTER TABLE product
---     ADD CONSTRAINT product_detail_fk FOREIGN KEY (product_detail_id) references product_detail
