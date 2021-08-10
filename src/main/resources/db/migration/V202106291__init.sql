@@ -1,10 +1,8 @@
-DROP TABLE  if exists product_detail;
 CREATE TABLE product_detail
 (
     id       BIGSERIAL PRIMARY KEY,
     exp_date DATE
 );
-DROP TABLE if exists product;
 CREATE TABLE product
 (
     id                BIGSERIAL PRIMARY KEY,

@@ -7,4 +7,4 @@ CREATE TABLE "user"
 );
 
 ALTER TABLE product ADD COLUMN user_id bigint;
-ALTER TABLE proudct ADD CONSTRAINT user_fk foreign key (user_id) REFERENCES user;
+ALTER TABLE product ADD CONSTRAINT user_fk foreign key (user_id) REFERENCES "user";
