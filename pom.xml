@@ -63,6 +63,12 @@
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
+                    <layers>
+                        <enabled>true</enabled>
+                    </layers>
+                    <docker>
+                        <host>tcp://172.31.20.68:2376</host>
+                    </docker>
                 </configuration>
             </plugin>
 <!--            <plugin>-->
