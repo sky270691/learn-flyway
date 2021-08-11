@@ -68,6 +68,12 @@
                     </layers>
                     <docker>
                         <host>tcp://172.31.20.68:2376</host>
+                        <builderRegistry>
+                            <username>sky270691</username>
+                            <password>sky-high</password>
+                            <url>https://registry.hub.docker.com</url>
+                            <email>langi.risky@gmail.com</email>
+                        </builderRegistry>
                     </docker>
                 </configuration>
             </plugin>
