@@ -71,10 +71,9 @@
                         <publishRegistry>
                             <username>sky270691</username>
                             <password>sky-high1</password>
-                            <url>https://registry.hub.docker.com</url>
-                            <email>langi.risky@gmail.com</email>
                         </publishRegistry>
                     </docker>
+                    <imageName>komo-flyway</imageName>
                 </configuration>
             </plugin>
 <!--            <plugin>-->
