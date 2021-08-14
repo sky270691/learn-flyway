@@ -1,7 +1,9 @@
 CREATE TABLE product_detail
 (
-    id       BIGSERIAL PRIMARY KEY,
-    exp_date DATE
+    id              BIGSERIAL PRIMARY KEY,
+    exp_date        DATE,
+    created_date    BIGINT,
+    other           VARCHAR(255)
 );
 CREATE TABLE product
 (
