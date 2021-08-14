@@ -13,7 +13,7 @@ public class AuditConfig {
 
     @Bean
     public AuditorAware<String> auditorAware(){
-        return(()-> Optional.of("SYSTEM"));
+        return(()-> Optional.of("BACOT"));
     }
 
 }
